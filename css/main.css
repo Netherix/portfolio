@@ -1,0 +1,157 @@
+body, html {
+    height: 100%;
+    margin: 0px;
+}
+
+body {
+    background-color: black;
+    width: 100%;
+}
+
+p, h1, h2, strong, small, figcaption, a, li {
+    font-family: rajdhani;
+}
+
+nav li {
+    display: inline;
+    margin: 20px;
+}
+
+nav ul {
+    background-color: #194ccc;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    padding: 20px;
+}
+
+nav {
+    display: block;
+    color: white;
+    width: 100%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.hero-image {
+    background-image:url("../images/futuristic.jpg");
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: .8;
+}
+
+.hero-text {
+    color: rgb(255, 255, 255);
+    text-align:center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#main {
+    width: 75%;
+    float:left;
+    height: 100%;
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+
+#side {
+    width: 20%;
+    float:right;
+    height: 100%;
+    padding: 20px;
+}
+
+#profile-image {
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid #194ccc;
+}
+
+#profile {
+    text-align: center;
+}
+
+.side-articles ul {
+    list-style-type:none ;
+    padding-left: 0px;
+
+}
+
+#profile-details {
+    margin-right: 30px;
+    text-align: center;
+}
+
+.side-articles, .main-articles {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.side-articles {
+    background-color: #35bbbb;
+    text-align: center;
+}
+
+.main-articles {
+    background-color: #194ccc;
+}
+
+.main-articles p, h1, figcaption, strong, small {
+    color: white;
+}
+
+form {
+    margin-top: 20px;
+}
+
+textarea, input{
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.side-articles p, h1, h2 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.side-articles li {
+    color: white;
+}
+
+footer {
+    bottom: 0px;
+    width: 100%;
+    background-color: black;
+    height: 5vh;
+}
+footer div {
+    text-align: center;
+    color: white;
+}
+
+footer hr {
+    margin-top: 0px;
+    height: 12px;
+    border: 0px;
+    box-shadow: inset 0 12px 12px -12px white;
+}
+
+main {
+    overflow: auto;
+}
